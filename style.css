@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body */
+body {
+    line-height: 1.6;
+}
+
+/*navbar */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #bc0d1ecb;
+    padding: 15px 30px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*section*/
+section {
+    padding: 60px, 20px;
+    text-align: center;
+}
+
+/*home*/
+#Home {
+    background: #9a121279;
+    color: white;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+#home p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/*button*/
+
+button {
+    padding: 8px 8px;
+    font-size: 16px;
+    background: white;
+    color: #0ea5e9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+/*about , problem , solution */
+
+#AboutUs, #Problem, #Solution {
+  background: #174194;
+  margin: 10px;
+  border-radius: 10px;
+}
+/* Lists */
+ul {
+  margin-top: 15px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Contact */
+#contact {
+  background: #e0f2fe;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+}
