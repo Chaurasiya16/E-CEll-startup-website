@@ -11,12 +11,12 @@ body {
 }
 
 /*navbar */
-nav {
+.container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
     background: #bc0d1ecb;
-    padding: 15px 30px;
+    padding: 15px 40px;
     color: white;
     position: sticky;
     top: 0;
@@ -25,10 +25,12 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    gap:30px;
+    margin: 0 auto;
 }
 
 nav li {
-    margin: 20px;
+    margin: 0px 15px;
 }
 
 nav ul li a {
@@ -40,24 +42,25 @@ nav ul li a {
 
 /*section*/
 section {
-    padding: 60px, 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
 /*home*/
 #Home {
-    background: #9a121279;
+    background: #9f0c0cb8;
     color: white;
-    padding: 100px 20px;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 60vh;
 
 }
 
 
 
-#home p {
+#Home p {
     margin-bottom: 20px;
     font-size: 15px;
 }
@@ -65,12 +68,12 @@ section {
 /*button*/
 
 button {
-    padding: 8px 8px;
-    font-size: 16px;
+    padding: 6px 14px;
+    font-size: 18px;
     background: white;
     color: #0ea5e9;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -81,14 +84,17 @@ button:hover {
 
 /*about , problem , solution */
 
-#AboutUs, #Problem, #Solution {
-  background: #174194;
+#About, #Problem, #Solution {
+  background: #9a121279;
   margin: 10px;
   border-radius: 10px;
 }
 /* Lists */
 ul {
-  margin-top: 15px;
+  /*list-style-position: inside;
+  padding-left : 0px;*/
+  display: inline-block;
+  text-align: left;
 }
 
 ul li {
@@ -96,7 +102,7 @@ ul li {
 }
 
 /* Contact */
-#contact {
+#Contact {
   background: #e0f2fe;
 }
 
@@ -104,6 +110,6 @@ ul li {
 footer {
   text-align: center;
   padding: 15px;
-  background: #111;
+  background: #6f5050;
   color: white;
 }
